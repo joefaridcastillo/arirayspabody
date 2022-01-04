@@ -337,135 +337,7 @@ a {
     color: #ffffff;
 }
 
-#price .pricing__item {
-  position: relative;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: column;
-  flex-direction: column;
-  -webkit-align-items: stretch;
-  align-items: stretch;
-  text-align: center;
-  -webkit-flex: 0 1 330px;
-  flex: 0 1 330px;
-}
 
-#price .pricing__feature-list {
-  text-align: left;
-}
-
-#price .pricing__action {
-  color: inherit;
-  border: none;
-  background: none;
-}
-
-#price .pricing__action:focus {
-  outline: none;
-}
-
-#price .pricing__item {
-  font-size: 20px;
-  margin-top: 72px;
-  padding: 2em;
-  cursor: default;
-  color: #fff;
-  border: 1px solid #666;
-  -webkit-transition: background-color 0.6s, color 0.3s;
-  transition: background-color 0.6s, color 0.3s;
-}
-
-#price .pricing__item:nth-child(2) {
-  border-right: none;
-  border-left: none;
-}
-
-#price .pricing__item:hover {
-  color: #444;
-  background: #ffffff;
-  border-color: transparent;
-}
-
-#price .pricing__title {
-  font-size: 2em;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-#price .pricing__price {
-  font-size: 1.45em;
-  font-weight: bold;
-  line-height: 120px;
-  width: 120px;
-  height: 120px;
-  margin: 1.15em auto 0.3em;
-  border-radius: 50%;
-  background: #ffffff;
-  -webkit-transition: color 0.3s, background 0.3s;
-  transition: color 0.3s, background 0.3s;
-}
-
-#price .pricing__item:first-child .pricing__price {
-  background: #26253a;
-}
-
-#price .pricing__item:nth-child(2) .pricing__price {
-  background: #26253a;
-}
-
-#price .pricing__item:hover .pricing__price {
-  color: #fff;
-  background: #222;
-}
-
-#price .pricing__feature-list {
-  margin: 0;
-  padding: 1em 1em 2em 1em;
-  font-weight: bold;
-  list-style: none;
-  letter-spacing: 0.6px;
-  line-height: 32px;
-  text-align: center;
-}
-
-#price .pricing__action {
-  font-weight: bold;
-  margin-top: auto;
-  padding: 18px 48px;
-  opacity: 0;
-  color: #fff;
-  font-size: 20px;
-  background: #26253a;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
-  transition: transform 0.3s, opacity 0.3s;
-  -webkit-transform: translate3d(0, -15px, 0);
-  transform: translate3d(0, -15px, 0);
-}
-
-#price .pricing__item:hover .pricing__action {
-  opacity: 1;
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-
-#price .pricing__action:hover,
-#price .pricing__action:focus {
-  background: #222;
-}
-
-@media screen and (max-width: 60em) {
-  #price .pricing__item {
-    max-width: none;
-    width: 100%;
-    flex: none;
-  }
-  #price .pricing__item:nth-child(2) {
-    border: 1px solid #fff;
-  }
-}
 
 
 
@@ -559,6 +431,152 @@ footer .copyright-text {
     background: #ffffff;
 }
 
+/* BOOKING SECTION */
+.logoSection-1 img{
+  width: 700px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 100px;
+ 
+}
+.logoApp{
+  margin-bottom: 50px;
+}
+.form-style-5{
+	max-width: 500px;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	margin: 10px auto;
+	padding: 20px;
+	background: #f4f7f8;
+	border-radius: 8px;
+  font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
+
+}
+.form-style-5 fieldset{
+	border: none;
+}
+.form-style-5 legend {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+.form-style-5 label {
+	display: block;
+	margin-bottom: 8px;
+}
+.form-style-5 input[type="text"],
+.form-style-5 input[type="date"],
+.form-style-5 input[type="datetime"],
+.form-style-5 input[type="email"],
+.form-style-5 input[type="number"],
+.form-style-5 input[type="search"],
+.form-style-5 input[type="time"],
+.form-style-5 input[type="url"],
+.form-style-5 textarea,
+.form-style-5 select {
+  font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
+
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: #e8eeef;
+	color:#8a97a0;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+}
+.form-style-5 input[type="text"]:focus,
+.form-style-5 input[type="date"]:focus,
+.form-style-5 input[type="datetime"]:focus,
+.form-style-5 input[type="email"]:focus,
+.form-style-5 input[type="number"]:focus,
+.form-style-5 input[type="search"]:focus,
+.form-style-5 input[type="time"]:focus,
+.form-style-5 input[type="url"]:focus,
+.form-style-5 textarea:focus,
+.form-style-5 select:focus{
+	background: #d2d9dd;
+}
+.form-style-5 select{
+	-webkit-appearance: menulist-button;
+	height:35px;
+}
+.form-style-5 .number {
+	background: #ceafa3;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 15px 15px 15px 0px;
+}
+
+.form-style-5 input[type="submit"],
+.form-style-5 input[type="button"]
+{
+  background: transparent;
+  border: 4px solid #ceafa3;
+  color: #ceafa3;
+  border-radius: 0px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  padding: 14px 46px;
+  transition: all 0.4s ease-in-out;
+  margin-top: 20px;
+}
+.form-style-5 input[type="submit"]:hover,
+.form-style-5 input[type="button"]:hover
+{
+  background:#ceafa3;
+  color: #ffffff;
+}
+#about{
+  padding-top: 20px;
+}
+.radioGroup label{
+  display: inline-block;
+  margin: 0 0.2em;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.radioGroup label input[type="radio"]{
+  margin: 0.5em auto;
+}
+#serviceQuestion{
+  padding-top: 20px;
+  color: #ceafa3;
+}
+#serviceQuestion2{
+  padding-top: 20px;
+  color: #ceafa3;
+}
+#serviceQuestion3{
+  padding-top: 20px;
+  color: #ceafa3;
+}
+#btnForm{
+  margin-top: 50px;
+  padding-top: 20px;
+  cursor: pointer;
+}
 
 
 /*---------------------------------------
@@ -589,9 +607,30 @@ footer .copyright-text {
   #blog-header {
     height: 40vh;
   }
-
+  .btnBooking2{
+    display:none;
+     margin-left: 170px;
+     width: 80px;
+     height: 40px;
+     cursor: pointer;
+     font-size: 12px;
+font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
+  
 }
-
+.btnBooking{
+  left: 48%;
+  width: 80px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: bold;
+  
+}
+.btnBooking:hover{
+  background-color: #FFFF;
+  color: black;
+  transition: 0.3s ease-in;
+}
+}
 
 @media (max-width: 768px) {
 
@@ -600,6 +639,16 @@ footer .copyright-text {
     left: 30px;
     right: 10px;
   }
+  .btnBooking2 {
+    display: none;
+     margin-left: 170px;
+     width: 80px;
+     height: 40px;
+     cursor: pointer;
+     font-size: 12px;
+font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
+   
+   }
 
 }
 
@@ -626,7 +675,28 @@ footer .copyright-text {
     padding-top: 8rem;
     padding-bottom: 8rem;
   }
-
+  .btnBooking{
+    left: 40%;
+    width: 80px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: bold;
+    
+  }
+  .btnBooking:hover{
+    background-color: #FFFF;
+    color: black;
+    transition: 0.3s ease-in;
+  }
+  .btnBooking2 {
+      
+    margin-left: 170px;
+     width: 80px;
+     height: 40px;
+     cursor: pointer;
+     font-size: 12px;
+ font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
+  }
 }
 
 
@@ -677,7 +747,16 @@ footer .copyright-text {
     padding-top: 30px;
     padding-bottom: 30px;
   }
-
+  .btnBooking{
+    left: 38%;
+    width: 80px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
+  
+}
 }
 
 
@@ -687,6 +766,10 @@ footer .copyright-text {
     position: relative;
     top: 0px;
     left: 0px;
+  }
+  #btnForm:hover {
+    background-color: black;
+    color: white;
   }
 
 }
@@ -703,5 +786,4 @@ footer .copyright-text {
   }
 
 }
-
 

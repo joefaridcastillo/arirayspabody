@@ -326,16 +326,6 @@ a {
 }
 
 
-/*---------------------------------------
-    Price section              
------------------------------------------*/
-#price {
-  background-color: #ceafa3;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    color: #ffffff;
-}
 
 
 
@@ -584,13 +574,19 @@ footer .copyright-text {
 /*---------------------------------------
     Price section              
 -----------------------------------------*/
-#price {
-  background: url('../images/price-bg.jpg') 50% 0 repeat-y fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    color: #ffffff;
+#title-price-1{
+  font-size: 12px;
 }
+#price {
+ 
+  background-color: #ceafa3;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+}
+
+
 
 #price .pricing__item {
   position: relative;
@@ -642,11 +638,30 @@ footer .copyright-text {
 }
 
 #price .pricing__title {
-  font-size: 2em;
+  font-size: 1.5em;
   width: 100%;
   margin: 0;
   padding: 0;
 }
+#price .pricing__title-1 {
+  font-size: 25px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+#price .pricing__title-2 {
+  font-size: 32px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+#price .pricing__title-3 {
+  font-size: 32px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 
 #price .pricing__price {
   font-size: 1.45em;

@@ -346,9 +346,10 @@ a {
   padding-bottom: 14px;
 }
 
-#testimonial h3 {
+#testimonial h2 {
   letter-spacing: 1px;
 }
+
 
 
 
@@ -787,6 +788,9 @@ font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
   color: black;
   transition: 0.3s ease-in;
 }
+.promo-img{
+  width: 200px;
+}
 }
 
 @media (max-width: 768px) {
@@ -805,6 +809,10 @@ font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
      font-size: 12px;
 font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
    
+   }
+
+   .promo-img {
+     width: 200px;
    }
 
 }
@@ -853,6 +861,9 @@ font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
      cursor: pointer;
      font-size: 12px;
  font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
+  }
+  .promo-img{
+    width: 200px;
   }
 }
 
@@ -914,6 +925,9 @@ font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
 font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
   
 }
+.promo-img{
+  width: 400px;
+}
 }
 
 
@@ -928,6 +942,9 @@ font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
     background-color: black;
     color: white;
   }
+  .promo-img img{
+    width: 50px;
+  }
 
 }
 
@@ -940,6 +957,9 @@ font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
 
   #overview .overview-detail {
     margin-top: 32px;
+  }
+  .promo-img img{
+    width: 50px;
   }
 
 }
